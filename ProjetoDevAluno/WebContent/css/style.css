@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+@media screen and (min-width: 0){
+    
+    i::before{ margin-right: 1rem;}
+    
+    .menu{
+        background: #09f;
+        color: #fff;
+        line-height: 100px;
+        height: 100px;
+        margin-bottom: 2rem;
+    }
+    .menu h1{
+        line-height: 100px;
+        margin-bottom: 0;
+    }
+    .menu h1 i::before{ font-size: 2rem; margin-right: 1rem; display: table; float: left;}
+    
+    .options .btn{
+        line-height: 4rem;
+        font-size: 1.1rem;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .options .btn:hover{
+        background: orange;
+        color: #fff;
+    }
+    .options .btn i::before{ margin-right: 1rem;}
+    
+    .options .col{ height: 150px; padding: 1rem; color: #fff;}
+}
+
+@media screen and (min-width: 768px){
+
+}
+@media screen and (min-width: 1200px){
+
+
+}
+@media screen and (min-width: 1320px){
+
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Emprestimo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/boot.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        <nav class="menu row">
+
+            <div class="wrap-g">
+
+                <h1><i class="fa fa-book-open"></i>SGBJ</h1>
+
+            </div>
+
+        </nav>
+
+        <section class="row cad-user">
+
+            <div class="wrap-g">
+                
+                <h2>Cadastro de livro</h2>
+
+                <form method="POST" action="EmprestimoCadastro.jsp">
+                    
+                    <div class="formgroup">
+                        <label>Numero de série</label>
+                        
+                        <input type="text" name="numero_serie" required="" placeholder="Ex. 5454121">
+                    </div>
+                    
+                    <div class="formgroup">
+                        <label>Matricula</label>
+                        
+                        <input type="text" required="" name="mat_emprestimo" placeholder="Ex. 154554">
+                    </div>
+                    
+                    <div class="formgroup">
+                        <button class="btn"><i class="fa fa-envelope"></i>Enviar</button>
+                    </div>
+                    
+                </form>
+
+            </div>
+
+        </section>
+
+
+    </body>
+</html>

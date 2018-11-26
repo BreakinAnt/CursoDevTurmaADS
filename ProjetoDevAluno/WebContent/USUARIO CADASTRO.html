@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de usuário</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/boot.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        <nav class="menu row">
+
+            <div class="wrap-g">
+
+                <h1><i class="fa fa-book-open"></i>SGBJ</h1>
+
+            </div>
+
+        </nav>
+
+        <section class="row cad-user">
+
+            <div class="wrap-g">
+                
+                <h2>Cadastro de usuário</h2>
+
+                <form method="POST" action="UsuarioCadastro.jsp">
+                    
+                    <div class="formgroup">
+                        <label>Nome</label>
+                        
+                        <input type="text" name="nome_usuario" required="" placeholder="Nome">
+                    </div>
+                    
+                    <div class="formgroup">
+                        <label>Matricula</label>
+                        
+                        <input type="number" required="" name="matricula_usuario" placeholder="Matricula">
+                    </div>
+                    
+                    <div class="formgroup">
+                        <label>Nº OAB</label>
+                        
+                        <input type="number" required="" name="num_oab" placeholder="Nº OAB">
+                    </div>
+                      
+                    <div class="formgroup">
+                        <label>Senha</label>
+                        
+                        <input type="password" required="" name="senha_usuario" placeholder="senha">
+                    </div>
+                    
+                    
+                    <div class="formgroup">
+                        <button class="btn"><i class="fa fa-envelope"></i>Enviar</button>
+                    </div>
+                    
+                </form>
+
+            </div>
+
+        </section>
+
+
+    </body>
+</html>
